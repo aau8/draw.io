@@ -1,0 +1,46 @@
+<mxfile host="app.diagrams.net" modified="2023-10-10T18:21:32.979Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="uqHY6zeMiCzzFfnhFvcn" version="22.0.4" type="github">
+  <diagram name="Page-1" id="88TUt0J1ghnv6gb6zTfj">
+    <mxGraphModel dx="1050" dy="566" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="uW7BpsGsS2_Z-40oAiEc-11" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="160" y="210" width="650" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="uW7BpsGsS2_Z-40oAiEc-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="uW7BpsGsS2_Z-40oAiEc-1" target="uW7BpsGsS2_Z-40oAiEc-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uW7BpsGsS2_Z-40oAiEc-1" value="Список активных соревнований" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="440" y="90" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="uW7BpsGsS2_Z-40oAiEc-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uW7BpsGsS2_Z-40oAiEc-2" target="uW7BpsGsS2_Z-40oAiEc-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uW7BpsGsS2_Z-40oAiEc-2" value="1 активное сорев." style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="200" y="240" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="uW7BpsGsS2_Z-40oAiEc-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uW7BpsGsS2_Z-40oAiEc-3" target="uW7BpsGsS2_Z-40oAiEc-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uW7BpsGsS2_Z-40oAiEc-3" value="Определяем участников" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="320" y="240" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="uW7BpsGsS2_Z-40oAiEc-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uW7BpsGsS2_Z-40oAiEc-5" target="uW7BpsGsS2_Z-40oAiEc-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uW7BpsGsS2_Z-40oAiEc-5" value="Получаем данные из 1C" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="440" y="240" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="uW7BpsGsS2_Z-40oAiEc-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uW7BpsGsS2_Z-40oAiEc-7" target="uW7BpsGsS2_Z-40oAiEc-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uW7BpsGsS2_Z-40oAiEc-7" value="Формируем рейтинг" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="560" y="240" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="uW7BpsGsS2_Z-40oAiEc-9" value="Отправляем пуш" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="680" y="240" width="90" height="90" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
