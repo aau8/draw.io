@@ -1,9 +1,36 @@
-<mxfile host="app.diagrams.net" modified="2023-10-11T07:32:21.229Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" version="22.0.4" etag="NQtFDgxTddgDgkdwuvSN" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-11T08:30:21.753Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="12ghwlwDtKSCjTX6Dbdu" version="22.0.4" type="github">
   <diagram name="Page-1" id="1tSpIQoJeF9k7ohB943X">
-    <mxGraphModel>
+    <mxGraphModel dx="1050" dy="566" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="anas0bZyGI5LQNWKp4wH-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="anas0bZyGI5LQNWKp4wH-1" target="anas0bZyGI5LQNWKp4wH-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="anas0bZyGI5LQNWKp4wH-1" value="Создание соревнования (статус 1 - черновик).&lt;br&gt;[POST] /admin/competition" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="40" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="anas0bZyGI5LQNWKp4wH-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="anas0bZyGI5LQNWKp4wH-7" target="anas0bZyGI5LQNWKp4wH-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="anas0bZyGI5LQNWKp4wH-7" value="Загрузка обложки.&lt;br&gt;[POST] /admin/competition/{competition_id}/cover" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="40" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="anas0bZyGI5LQNWKp4wH-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="anas0bZyGI5LQNWKp4wH-8" target="anas0bZyGI5LQNWKp4wH-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="anas0bZyGI5LQNWKp4wH-8" value="Добавление участников.&lt;br&gt;[POST] /admin/competition/{competition_id}/participants" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="130" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="anas0bZyGI5LQNWKp4wH-9" value="Изменение статуса соревнования на 2 - запланированный или 3 - активный.&lt;br&gt;[POST] /admin/competition/{competition_id}/status" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="220" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="anas0bZyGI5LQNWKp4wH-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="anas0bZyGI5LQNWKp4wH-10" target="anas0bZyGI5LQNWKp4wH-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="anas0bZyGI5LQNWKp4wH-10" value="Добавление наград.&lt;br&gt;[POST] /admin/competition/{competition_id}/awards" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="130" width="280" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
