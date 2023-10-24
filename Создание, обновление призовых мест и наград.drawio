@@ -1,0 +1,153 @@
+<mxfile host="app.diagrams.net" modified="2023-10-24T22:32:47.635Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="zTvUqrLedBqlmq9Wnc37" version="22.0.6" type="github">
+  <diagram name="Page-1" id="zwBJmfLyWNVrqaNaPtdH">
+    <mxGraphModel dx="1500" dy="2739" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="0yKtY6_S6CfKmwJI_Bmw-20" value="Клиент" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="-1820" width="690" height="280" as="geometry">
+            <mxRectangle x="70.31" y="940" width="40" height="150" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0yKtY6_S6CfKmwJI_Bmw-29" value="Добавить/обновить призовое место и награду(-ы)&lt;span id=&quot;docs-internal-guid-f60f1e62-7fff-1896-8663-13221597474c&quot; style=&quot;font-size: 12px;&quot;&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="0yKtY6_S6CfKmwJI_Bmw-20">
+          <mxGeometry x="109.69" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0yKtY6_S6CfKmwJI_Bmw-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="0yKtY6_S6CfKmwJI_Bmw-20" target="0yKtY6_S6CfKmwJI_Bmw-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="169.69000000000005" y="90" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0yKtY6_S6CfKmwJI_Bmw-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="0yKtY6_S6CfKmwJI_Bmw-20" source="0yKtY6_S6CfKmwJI_Bmw-46" target="0yKtY6_S6CfKmwJI_Bmw-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0yKtY6_S6CfKmwJI_Bmw-46" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="0yKtY6_S6CfKmwJI_Bmw-20">
+          <mxGeometry x="40" y="30" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0yKtY6_S6CfKmwJI_Bmw-50" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;edgeStyle=orthogonalEdgeStyle;strokeColor=default;endArrow=none;endFill=0;dashed=1;" edge="1" parent="0yKtY6_S6CfKmwJI_Bmw-20" source="0yKtY6_S6CfKmwJI_Bmw-49" target="0yKtY6_S6CfKmwJI_Bmw-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0yKtY6_S6CfKmwJI_Bmw-49" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Передаем массив с призовыми местами и наградами&lt;/span&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="0yKtY6_S6CfKmwJI_Bmw-20">
+          <mxGeometry x="310" y="110" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="0yKtY6_S6CfKmwJI_Bmw-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=block;endFill=0;" edge="1" parent="1" source="0yKtY6_S6CfKmwJI_Bmw-29" target="0yKtY6_S6CfKmwJI_Bmw-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0yKtY6_S6CfKmwJI_Bmw-28" value="[POST] /admin/competition/{competition_id}/award&lt;span id=&quot;docs-internal-guid-db053ab9-7fff-ca92-a230-2fc7e1af708c&quot; style=&quot;font-size: 10px;&quot;&gt;&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" vertex="1" connectable="0" parent="0yKtY6_S6CfKmwJI_Bmw-27">
+          <mxGeometry x="-0.1861" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0yKtY6_S6CfKmwJI_Bmw-33" value="Сервер" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="-1540" width="690" height="830" as="geometry">
+            <mxRectangle x="40" y="-1540" width="40" height="150" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0yKtY6_S6CfKmwJI_Bmw-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="0yKtY6_S6CfKmwJI_Bmw-33" target="0yKtY6_S6CfKmwJI_Bmw-35">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="129.05363636363626" y="90" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0yKtY6_S6CfKmwJI_Bmw-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="0yKtY6_S6CfKmwJI_Bmw-33" source="0yKtY6_S6CfKmwJI_Bmw-39" target="0yKtY6_S6CfKmwJI_Bmw-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0yKtY6_S6CfKmwJI_Bmw-39" value="Обработка данных" style="whiteSpace=wrap;html=1;" vertex="1" parent="0yKtY6_S6CfKmwJI_Bmw-33">
+          <mxGeometry x="109.69" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0yKtY6_S6CfKmwJI_Bmw-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=block;endFill=0;" edge="1" parent="0yKtY6_S6CfKmwJI_Bmw-33" source="0yKtY6_S6CfKmwJI_Bmw-42">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="168.00000000000023" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0yKtY6_S6CfKmwJI_Bmw-41" value="Сохранить награду и привязать ее к месту" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0yKtY6_S6CfKmwJI_Bmw-40">
+          <mxGeometry x="-0.0963" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0yKtY6_S6CfKmwJI_Bmw-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="0yKtY6_S6CfKmwJI_Bmw-33" source="0yKtY6_S6CfKmwJI_Bmw-52" target="0yKtY6_S6CfKmwJI_Bmw-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0yKtY6_S6CfKmwJI_Bmw-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="0yKtY6_S6CfKmwJI_Bmw-33" source="0yKtY6_S6CfKmwJI_Bmw-52" target="0yKtY6_S6CfKmwJI_Bmw-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0yKtY6_S6CfKmwJI_Bmw-52" value="У соревнования указаны призовые места" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="0yKtY6_S6CfKmwJI_Bmw-33">
+          <mxGeometry x="258" y="130" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0yKtY6_S6CfKmwJI_Bmw-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="0yKtY6_S6CfKmwJI_Bmw-33" source="0yKtY6_S6CfKmwJI_Bmw-53" target="0yKtY6_S6CfKmwJI_Bmw-75">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0yKtY6_S6CfKmwJI_Bmw-53" value="Нет" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="0yKtY6_S6CfKmwJI_Bmw-33">
+          <mxGeometry x="130" y="142" width="56" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="0yKtY6_S6CfKmwJI_Bmw-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="0yKtY6_S6CfKmwJI_Bmw-33" source="0yKtY6_S6CfKmwJI_Bmw-54" target="0yKtY6_S6CfKmwJI_Bmw-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0yKtY6_S6CfKmwJI_Bmw-54" value="Да" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="0yKtY6_S6CfKmwJI_Bmw-33">
+          <mxGeometry x="504" y="142" width="56" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="0yKtY6_S6CfKmwJI_Bmw-62" value="Удалить призовые места" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=block;endFill=0;" edge="1" parent="0yKtY6_S6CfKmwJI_Bmw-33" target="0yKtY6_S6CfKmwJI_Bmw-59">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="468.0000000000002" y="350" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0yKtY6_S6CfKmwJI_Bmw-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="0yKtY6_S6CfKmwJI_Bmw-33" source="0yKtY6_S6CfKmwJI_Bmw-63" target="0yKtY6_S6CfKmwJI_Bmw-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0yKtY6_S6CfKmwJI_Bmw-63" value="Сохранить место&lt;br&gt;(award_places)" style="whiteSpace=wrap;html=1;" vertex="1" parent="0yKtY6_S6CfKmwJI_Bmw-33">
+          <mxGeometry x="102" y="620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0yKtY6_S6CfKmwJI_Bmw-65" value="Сохранить награду и привязать ее к месту&lt;br&gt;(awards)" style="whiteSpace=wrap;html=1;" vertex="1" parent="0yKtY6_S6CfKmwJI_Bmw-33">
+          <mxGeometry x="90" y="710" width="144" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0yKtY6_S6CfKmwJI_Bmw-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="0yKtY6_S6CfKmwJI_Bmw-33" source="0yKtY6_S6CfKmwJI_Bmw-67" target="0yKtY6_S6CfKmwJI_Bmw-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0yKtY6_S6CfKmwJI_Bmw-67" value="Удалить награды привязанные к призовым местам&lt;br&gt;(awards)" style="whiteSpace=wrap;html=1;" vertex="1" parent="0yKtY6_S6CfKmwJI_Bmw-33">
+          <mxGeometry x="472" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0yKtY6_S6CfKmwJI_Bmw-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="0yKtY6_S6CfKmwJI_Bmw-33" source="0yKtY6_S6CfKmwJI_Bmw-68" target="0yKtY6_S6CfKmwJI_Bmw-75">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="468.0526315789475" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0yKtY6_S6CfKmwJI_Bmw-68" value="Удалить призовые места&lt;br&gt;(award_places)" style="whiteSpace=wrap;html=1;" vertex="1" parent="0yKtY6_S6CfKmwJI_Bmw-33">
+          <mxGeometry x="460" y="330" width="144" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0yKtY6_S6CfKmwJI_Bmw-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="0yKtY6_S6CfKmwJI_Bmw-33" target="0yKtY6_S6CfKmwJI_Bmw-73">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="468.0526315789475" y="480" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0yKtY6_S6CfKmwJI_Bmw-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="0yKtY6_S6CfKmwJI_Bmw-33" source="0yKtY6_S6CfKmwJI_Bmw-75" target="0yKtY6_S6CfKmwJI_Bmw-76">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0yKtY6_S6CfKmwJI_Bmw-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="0yKtY6_S6CfKmwJI_Bmw-33" source="0yKtY6_S6CfKmwJI_Bmw-75" target="0yKtY6_S6CfKmwJI_Bmw-78">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0yKtY6_S6CfKmwJI_Bmw-75" value="Свойство award_place имеет тип:&lt;span id=&quot;docs-internal-guid-2fcc935d-7fff-9b11-6086-938c4414f656&quot;&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="0yKtY6_S6CfKmwJI_Bmw-33">
+          <mxGeometry x="258" y="320" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0yKtY6_S6CfKmwJI_Bmw-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="0yKtY6_S6CfKmwJI_Bmw-33" source="0yKtY6_S6CfKmwJI_Bmw-76" target="0yKtY6_S6CfKmwJI_Bmw-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0yKtY6_S6CfKmwJI_Bmw-76" value="number" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="0yKtY6_S6CfKmwJI_Bmw-33">
+          <mxGeometry x="126" y="500" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="0yKtY6_S6CfKmwJI_Bmw-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="0yKtY6_S6CfKmwJI_Bmw-33" source="0yKtY6_S6CfKmwJI_Bmw-78" target="0yKtY6_S6CfKmwJI_Bmw-82">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0yKtY6_S6CfKmwJI_Bmw-78" value="number[]" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="0yKtY6_S6CfKmwJI_Bmw-33">
+          <mxGeometry x="434" y="500" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="0yKtY6_S6CfKmwJI_Bmw-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="0yKtY6_S6CfKmwJI_Bmw-33" source="0yKtY6_S6CfKmwJI_Bmw-82" target="0yKtY6_S6CfKmwJI_Bmw-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0yKtY6_S6CfKmwJI_Bmw-82" value="С каждым местом, указанным в масиве, работаем отдельно" style="whiteSpace=wrap;html=1;" vertex="1" parent="0yKtY6_S6CfKmwJI_Bmw-33">
+          <mxGeometry x="409" y="620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0yKtY6_S6CfKmwJI_Bmw-51" value="Создание, обновление призовых мест и наград" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="-1880" width="290" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
