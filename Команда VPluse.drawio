@@ -1,9 +1,56 @@
-<mxfile host="app.diagrams.net" modified="2023-11-03T07:54:19.082Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" version="22.0.8" etag="GPBeLwhealBeH9Dbt3Zd" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-03T21:58:43.938Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="0iSa6StzxMhCPRhjslsh" version="22.0.8" type="github">
   <diagram name="Page-1" id="GhRAfGY-O9lsyGLhw-jo">
-    <mxGraphModel>
+    <mxGraphModel dx="1500" dy="819" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="gYKHsWB6z0Fp3AGmfOh0-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="gYKHsWB6z0Fp3AGmfOh0-11" target="gYKHsWB6z0Fp3AGmfOh0-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gYKHsWB6z0Fp3AGmfOh0-11" value="Аналитик" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gYKHsWB6z0Fp3AGmfOh0-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gYKHsWB6z0Fp3AGmfOh0-18" target="gYKHsWB6z0Fp3AGmfOh0-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gYKHsWB6z0Fp3AGmfOh0-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gYKHsWB6z0Fp3AGmfOh0-18" target="gYKHsWB6z0Fp3AGmfOh0-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gYKHsWB6z0Fp3AGmfOh0-18" value="Тимлид" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gYKHsWB6z0Fp3AGmfOh0-19" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="180" width="460" height="240" as="geometry">
+            <mxRectangle x="130" y="540" width="50" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gYKHsWB6z0Fp3AGmfOh0-14" value="Flutter-разработчик" style="whiteSpace=wrap;html=1;" vertex="1" parent="gYKHsWB6z0Fp3AGmfOh0-19">
+          <mxGeometry x="40" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gYKHsWB6z0Fp3AGmfOh0-13" value="React-разработчик" style="whiteSpace=wrap;html=1;" vertex="1" parent="gYKHsWB6z0Fp3AGmfOh0-19">
+          <mxGeometry x="300" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gYKHsWB6z0Fp3AGmfOh0-12" value="Python-разработчик" style="whiteSpace=wrap;html=1;" vertex="1" parent="gYKHsWB6z0Fp3AGmfOh0-19">
+          <mxGeometry x="170" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gYKHsWB6z0Fp3AGmfOh0-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;curved=1;" edge="1" parent="gYKHsWB6z0Fp3AGmfOh0-19" source="gYKHsWB6z0Fp3AGmfOh0-14" target="gYKHsWB6z0Fp3AGmfOh0-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gYKHsWB6z0Fp3AGmfOh0-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;curved=1;" edge="1" parent="gYKHsWB6z0Fp3AGmfOh0-19" source="gYKHsWB6z0Fp3AGmfOh0-12" target="gYKHsWB6z0Fp3AGmfOh0-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gYKHsWB6z0Fp3AGmfOh0-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;curved=1;" edge="1" parent="gYKHsWB6z0Fp3AGmfOh0-19" source="gYKHsWB6z0Fp3AGmfOh0-12" target="gYKHsWB6z0Fp3AGmfOh0-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gYKHsWB6z0Fp3AGmfOh0-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gYKHsWB6z0Fp3AGmfOh0-23" target="gYKHsWB6z0Fp3AGmfOh0-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gYKHsWB6z0Fp3AGmfOh0-23" value="Проект-менеджер" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gYKHsWB6z0Fp3AGmfOh0-46" value="&lt;ul&gt;&lt;li&gt;Python разработчик (Тимлид)&amp;nbsp;&lt;span style=&quot;text-align: center;&quot;&gt;200 000 руб.&lt;/span&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Аналитик - 150 000 руб.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;React-разработчик - 120 000 руб.&lt;/li&gt;&lt;li&gt;Flutter-разработчик - 120 000 руб.&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;Проект-менеджер - 40 000 руб.&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="600" y="80" width="300" height="100" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
