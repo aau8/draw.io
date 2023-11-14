@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-14T20:21:53.894Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="uSbaXSvcK1J1bCJ0-O0V" version="22.1.0" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-11-14T20:58:31.862Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="WI3i8WZhKmFXvCrULrn3" version="22.1.0" type="github" pages="5">
   <diagram id="BkYzrie2Brm8uQ8Xsx2h" name="Период вручения наград">
     <mxGraphModel dx="1105" dy="596" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
@@ -332,7 +332,122 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="CkRqE3iliK9bZdEL2Lg2" name="Выдача админом награды пользователю">
+  <diagram id="CkRqE3iliK9bZdEL2Lg2" name="Выдача админом монет">
+    <mxGraphModel dx="1750" dy="943" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="iCG0Qhvox0UnmVLsZyyr-1" value="Выдача админом монет" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=0;startSize=20;horizontalStack=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="190" y="60" width="820" height="1070" as="geometry" />
+        </mxCell>
+        <mxCell id="iCG0Qhvox0UnmVLsZyyr-2" value="Админ" style="swimlane;html=1;startSize=20;horizontal=0;" vertex="1" parent="iCG0Qhvox0UnmVLsZyyr-1">
+          <mxGeometry x="20" width="800" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="iCG0Qhvox0UnmVLsZyyr-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="iCG0Qhvox0UnmVLsZyyr-2" source="iCG0Qhvox0UnmVLsZyyr-5" target="iCG0Qhvox0UnmVLsZyyr-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="169.99999999999977" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iCG0Qhvox0UnmVLsZyyr-5" value="Пользователь выбрал&lt;br&gt;награду - монеты" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=standard;symbol=general;" vertex="1" parent="iCG0Qhvox0UnmVLsZyyr-2">
+          <mxGeometry x="70" y="75" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="iCG0Qhvox0UnmVLsZyyr-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="iCG0Qhvox0UnmVLsZyyr-2" source="iCG0Qhvox0UnmVLsZyyr-8" target="iCG0Qhvox0UnmVLsZyyr-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iCG0Qhvox0UnmVLsZyyr-8" value="Админ проверяет сумму покупок, сверяет с данными участника" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" vertex="1" parent="iCG0Qhvox0UnmVLsZyyr-2">
+          <mxGeometry x="180" y="60" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iCG0Qhvox0UnmVLsZyyr-9" value="Данные верны" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;gwType=exclusive;" vertex="1" parent="iCG0Qhvox0UnmVLsZyyr-2">
+          <mxGeometry x="390" y="75" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="iCG0Qhvox0UnmVLsZyyr-11" value="Админ выдает монеты" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" vertex="1" parent="iCG0Qhvox0UnmVLsZyyr-2">
+          <mxGeometry x="340" y="210" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iCG0Qhvox0UnmVLsZyyr-14" value="Админ не выдает монеты =&amp;gt; блокирует приз" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="iCG0Qhvox0UnmVLsZyyr-2">
+          <mxGeometry x="520" y="210" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iCG0Qhvox0UnmVLsZyyr-12" value="Да" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="iCG0Qhvox0UnmVLsZyyr-2" source="iCG0Qhvox0UnmVLsZyyr-9" target="iCG0Qhvox0UnmVLsZyyr-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iCG0Qhvox0UnmVLsZyyr-15" value="Нет" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="iCG0Qhvox0UnmVLsZyyr-2" source="iCG0Qhvox0UnmVLsZyyr-9" target="iCG0Qhvox0UnmVLsZyyr-14">
+          <mxGeometry x="0.4286" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iCG0Qhvox0UnmVLsZyyr-3" value="Сервер" style="swimlane;html=1;startSize=20;horizontal=0;" vertex="1" parent="iCG0Qhvox0UnmVLsZyyr-1">
+          <mxGeometry x="20" y="330" width="800" height="740" as="geometry" />
+        </mxCell>
+        <mxCell id="iCG0Qhvox0UnmVLsZyyr-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="iCG0Qhvox0UnmVLsZyyr-3" source="8rx5qufZmaBuQVO41qgq-13" target="iCG0Qhvox0UnmVLsZyyr-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8rx5qufZmaBuQVO41qgq-13" value="Указать время получения награды в поле&amp;nbsp;time_award_receiving" style="whiteSpace=wrap;html=1;" vertex="1" parent="iCG0Qhvox0UnmVLsZyyr-3">
+          <mxGeometry x="325" y="370" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8rx5qufZmaBuQVO41qgq-11" value="Поменять статус на 4 (награда получена)" style="whiteSpace=wrap;html=1;" vertex="1" parent="iCG0Qhvox0UnmVLsZyyr-3">
+          <mxGeometry x="345" y="280" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iCG0Qhvox0UnmVLsZyyr-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="iCG0Qhvox0UnmVLsZyyr-3" source="8rx5qufZmaBuQVO41qgq-7" target="iCG0Qhvox0UnmVLsZyyr-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8rx5qufZmaBuQVO41qgq-7" value="Получить награду по указанному id" style="whiteSpace=wrap;html=1;" vertex="1" parent="iCG0Qhvox0UnmVLsZyyr-3">
+          <mxGeometry x="345" y="55" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8rx5qufZmaBuQVO41qgq-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="iCG0Qhvox0UnmVLsZyyr-3" source="8rx5qufZmaBuQVO41qgq-11" target="8rx5qufZmaBuQVO41qgq-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8rx5qufZmaBuQVO41qgq-9" value="award_places" style="shape=datastore;whiteSpace=wrap;html=1;" vertex="1" parent="iCG0Qhvox0UnmVLsZyyr-3">
+          <mxGeometry x="195" y="55" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8rx5qufZmaBuQVO41qgq-10" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="iCG0Qhvox0UnmVLsZyyr-3" source="8rx5qufZmaBuQVO41qgq-9" target="8rx5qufZmaBuQVO41qgq-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8rx5qufZmaBuQVO41qgq-12" value="Да" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="iCG0Qhvox0UnmVLsZyyr-3" source="iCG0Qhvox0UnmVLsZyyr-25" target="8rx5qufZmaBuQVO41qgq-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iCG0Qhvox0UnmVLsZyyr-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="iCG0Qhvox0UnmVLsZyyr-3" source="iCG0Qhvox0UnmVLsZyyr-24" target="iCG0Qhvox0UnmVLsZyyr-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iCG0Qhvox0UnmVLsZyyr-24" value="Начислить монеты на счет пользователя.&lt;br&gt;Эндпоинт&amp;nbsp;&lt;span style=&quot;text-align: left;&quot;&gt;/admin/transactions/&lt;/span&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="iCG0Qhvox0UnmVLsZyyr-3">
+          <mxGeometry x="320" y="460" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iCG0Qhvox0UnmVLsZyyr-29" value="Нет" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="iCG0Qhvox0UnmVLsZyyr-3" source="iCG0Qhvox0UnmVLsZyyr-25" target="iCG0Qhvox0UnmVLsZyyr-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iCG0Qhvox0UnmVLsZyyr-25" value="Награда является монетами" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;gwType=exclusive;" vertex="1" parent="iCG0Qhvox0UnmVLsZyyr-3">
+          <mxGeometry x="390" y="160" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="iCG0Qhvox0UnmVLsZyyr-28" value="Выполняется сценарий&lt;br&gt;для призов/товаров" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=terminate2;" vertex="1" parent="iCG0Qhvox0UnmVLsZyyr-3">
+          <mxGeometry x="230" y="160" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="iCG0Qhvox0UnmVLsZyyr-36" value="Да" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="iCG0Qhvox0UnmVLsZyyr-3" source="iCG0Qhvox0UnmVLsZyyr-31" target="iCG0Qhvox0UnmVLsZyyr-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iCG0Qhvox0UnmVLsZyyr-38" value="Нет" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="iCG0Qhvox0UnmVLsZyyr-3" source="iCG0Qhvox0UnmVLsZyyr-31" target="iCG0Qhvox0UnmVLsZyyr-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iCG0Qhvox0UnmVLsZyyr-31" value="Произошла ошибка" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;gwType=exclusive;" vertex="1" parent="iCG0Qhvox0UnmVLsZyyr-3">
+          <mxGeometry x="390" y="550" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="iCG0Qhvox0UnmVLsZyyr-35" value="Отправляем лог, меняем статус призового места обратно на 3 и сбрасываем значение поля time_award_receiving" style="whiteSpace=wrap;html=1;" vertex="1" parent="iCG0Qhvox0UnmVLsZyyr-3">
+          <mxGeometry x="120" y="545" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iCG0Qhvox0UnmVLsZyyr-37" value="Отправляем пользователю уведомление о зачислении монет" style="whiteSpace=wrap;html=1;" vertex="1" parent="iCG0Qhvox0UnmVLsZyyr-3">
+          <mxGeometry x="320" y="650" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8rx5qufZmaBuQVO41qgq-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="iCG0Qhvox0UnmVLsZyyr-1" source="iCG0Qhvox0UnmVLsZyyr-11" target="8rx5qufZmaBuQVO41qgq-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-290" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8rx5qufZmaBuQVO41qgq-5" value="[POST] /admin/competition/awards/{award_id}/approve" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8rx5qufZmaBuQVO41qgq-4">
+          <mxGeometry x="0.2469" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="J7q3eEuKisMJo8B9v20H" name="Выдача админом приза/товара">
     <mxGraphModel dx="1050" dy="566" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
         <mxCell id="0" />
