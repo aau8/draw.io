@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-14T19:56:39.235Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="Qi-PnfZUH8BNt-9thRnU" version="22.1.0" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-11-14T20:05:12.596Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="2ZWM_TkhZCsN7V4GYcIG" version="22.1.0" type="github" pages="3">
   <diagram id="BkYzrie2Brm8uQ8Xsx2h" name="Период вручения призов">
     <mxGraphModel dx="1105" dy="596" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
@@ -203,7 +203,7 @@
         <mxCell id="saj-YPPJCfpiuBniVXf_-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="saj-YPPJCfpiuBniVXf_-2" source="saj-YPPJCfpiuBniVXf_-11" target="saj-YPPJCfpiuBniVXf_-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="saj-YPPJCfpiuBniVXf_-11" value="У призового места изменить поле status на 3" style="whiteSpace=wrap;html=1;" vertex="1" parent="saj-YPPJCfpiuBniVXf_-2">
+        <mxCell id="saj-YPPJCfpiuBniVXf_-11" value="Изменить поле status на 3 (награда выбрана)" style="whiteSpace=wrap;html=1;" vertex="1" parent="saj-YPPJCfpiuBniVXf_-2">
           <mxGeometry x="270" y="170" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="saj-YPPJCfpiuBniVXf_-13" value="award_places" style="shape=datastore;whiteSpace=wrap;html=1;" vertex="1" parent="saj-YPPJCfpiuBniVXf_-2">
