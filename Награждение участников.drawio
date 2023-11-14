@@ -1,5 +1,5 @@
-<mxfile host="app.diagrams.net" modified="2023-11-14T20:05:12.596Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="2ZWM_TkhZCsN7V4GYcIG" version="22.1.0" type="github" pages="3">
-  <diagram id="BkYzrie2Brm8uQ8Xsx2h" name="Период вручения призов">
+<mxfile host="app.diagrams.net" modified="2023-11-14T20:21:53.894Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="uSbaXSvcK1J1bCJ0-O0V" version="22.1.0" type="github" pages="4">
+  <diagram id="BkYzrie2Brm8uQ8Xsx2h" name="Период вручения наград">
     <mxGraphModel dx="1105" dy="596" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -177,7 +177,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram name="Выбор" id="Zi-mwWFGqfhMm1AQserH">
+  <diagram name="Выбор награды пользователем" id="Zi-mwWFGqfhMm1AQserH">
     <mxGraphModel dx="1105" dy="596" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -252,7 +252,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="7fTyHUXAhMRTOChiqAc8" name="Вручение">
+  <diagram id="7fTyHUXAhMRTOChiqAc8" name="Получение админом призовых мест">
     <mxGraphModel dx="1050" dy="566" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -260,7 +260,7 @@
         <mxCell id="fn8Rj58Zduq8_vycgNQU-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="y8Bt2SRZKv3VGzzJkxlT-3" target="fn8Rj58Zduq8_vycgNQU-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="fn8Rj58Zduq8_vycgNQU-3" value="[GET] /admin/competition/award" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fn8Rj58Zduq8_vycgNQU-2">
+        <mxCell id="fn8Rj58Zduq8_vycgNQU-3" value="[GET] /admin/competition/award_places" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fn8Rj58Zduq8_vycgNQU-2">
           <mxGeometry x="0.15" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -329,6 +329,14 @@
         <mxCell id="cO_gCe4pMcwQIivROxKr-1" value="award_places" style="shape=datastore;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="150" y="600" width="110" height="60" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="CkRqE3iliK9bZdEL2Lg2" name="Выдача админом награды пользователю">
+    <mxGraphModel dx="1050" dy="566" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
