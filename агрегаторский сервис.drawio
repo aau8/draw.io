@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-09T14:57:38.075Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="zJbHL64gDAFkBgp_Ow-C" version="24.5.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-06-09T16:14:48.189Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="wJXVwRGnEk-4Ipw_umaQ" version="24.5.2" type="github" pages="2">
   <diagram name="Page-1" id="aDmIk8S-yPFbDakAWJmi">
     <mxGraphModel dx="1191" dy="636" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
@@ -111,10 +111,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="sf_XmHOGSo_Q0WM86Afz-12" value="Selecte Cloud Server 1" style="swimlane;whiteSpace=wrap;html=1;" parent="sf_XmHOGSo_Q0WM86Afz-1" vertex="1">
-          <mxGeometry x="380" y="210" width="510" height="340" as="geometry" />
+          <mxGeometry x="380" y="210" width="460" height="340" as="geometry" />
         </mxCell>
         <mxCell id="sf_XmHOGSo_Q0WM86Afz-14" value="Redis" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#C925D1;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.cache_node;" parent="sf_XmHOGSo_Q0WM86Afz-12" vertex="1">
-          <mxGeometry x="370" y="111" width="78" height="78" as="geometry" />
+          <mxGeometry x="360" y="141" width="78" height="78" as="geometry" />
         </mxCell>
         <mxCell id="sRQlnFxjSwezZkNOzgdZ-0" value="В одном сервисе" style="swimlane;whiteSpace=wrap;html=1;" parent="sf_XmHOGSo_Q0WM86Afz-12" vertex="1">
           <mxGeometry x="40" y="50" width="280" height="260" as="geometry" />
